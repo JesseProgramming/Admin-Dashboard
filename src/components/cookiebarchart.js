@@ -44,6 +44,9 @@ class CookieBarChart extends Component{
     }
 
     render(){
+      let themeColor = document.getElementById("body");
+      let graphThemeColor = (themeColor.className === 'theme-dark' ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)');
+      let graphTextColor = (themeColor.className === 'theme-dark' ? 'white' : 'black');
         return(
           <div className='chart'>
             <Bar
@@ -53,7 +56,7 @@ class CookieBarChart extends Component{
                     plugins: {  // 'legend' now within object 'plugins {}'
                         legend: {
                           labels: {
-                            color: "white",  // not 'fontColor:' anymore
+                            color: graphTextColor,  // not 'fontColor:' anymore
                             // fontSize: 18  // not 'fontSize:' anymore
                             font: {
                               size: 18 // 'size' now within object 'font {}'
@@ -64,7 +67,7 @@ class CookieBarChart extends Component{
                       scales: {
                         y: {  // not 'yAxes: [{' anymore (not an array anymore)
                           ticks: {
-                            color: "white", // not 'fontColor:' anymore
+                            color: graphTextColor, // not 'fontColor:' anymore
                             // fontSize: 18,
                             font: {
                               size: 18, // 'size' now within object 'font {}'
@@ -73,12 +76,12 @@ class CookieBarChart extends Component{
                             beginAtZero: true,
                           },
                           grid: {
-                            color: 'rgba(255,255,255,0.05)',
+                            color: graphThemeColor,
                           }
                         },
                         x: {  // not 'xAxes: [{' anymore (not an array anymore)
                           ticks: {
-                            color: "white",  // not 'fontColor:' anymore
+                            color: graphTextColor,  // not 'fontColor:' anymore
                             //fontSize: 14,
                             font: {
                               size: 14 // 'size' now within object 'font {}'
@@ -87,7 +90,7 @@ class CookieBarChart extends Component{
                             beginAtZero: true
                           },
                           grid: {
-                            color: 'rgba(255,255,255,0.05)',
+                            color: graphThemeColor,
                           }
                         }
                       }
