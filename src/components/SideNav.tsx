@@ -2,9 +2,11 @@ import React from 'react';
 import '../styles/nav-style.scss';
 import NavButtons from './NavButtons'
 // @ts-ignore
-import cookieBranding from '../images/cookie.256x256.png'
+import cookieBranding from '../images/cookie-pb.png'
 
 function SideNav() {
+    var date = new Date();
+    const formattedDate = date.toDateString();
     return(
         <div className="sidebar">
             <div className="branding">
@@ -13,7 +15,7 @@ function SideNav() {
                 <img id="brand-icon" src={cookieBranding}></img>
             </div>
             <div className="timestamp">
-                <p><span id="date-time"></span></p>
+                <p><span id="date-time">{formattedDate}</span></p>
             </div>
             <NavButtons/>
         </div>

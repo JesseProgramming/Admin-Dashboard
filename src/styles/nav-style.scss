@@ -4,16 +4,10 @@
 }
 body{
     background-color: rgb(13, 9, 28);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .widget-item{
-    background: rgb(32,30,45);
-    background: -moz-linear-gradient(56deg, rgba(32,30,45,1) 0%, rgba(42,39,62,1) 100%);
-    background: -webkit-linear-gradient(56deg, rgba(32,30,45,1) 0%, rgba(42,39,62,1) 100%);
-    background: linear-gradient(56deg, rgba(32,30,45,1) 0%, rgba(42,39,62,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#201e2d",endColorstr="#2a273e",GradientType=1);
-    color: rgb(234, 234, 234);
     border-radius: 6px;
     margin: 0.75vw;
     display: inline-block;
@@ -22,11 +16,9 @@ body{
 }
 
 .widget-container{
-    width: 82vw; 
+    width: 90%; 
     align-items: center;
     justify-content: center;
-    margin-left: 260px;
-    margin-right: 4vw;
 }
 
 .widget-row{
@@ -35,26 +27,25 @@ body{
 }
 
 .small-rectangle{
-
-    width: 25vw;
+    width: 25%;
 }
 .medium-square{
-    aspect-ratio: 1.5 / 1;
-    width: 33vw;
+    height: 350px;
+    width: 33%;
 }
 .large-rectangle{
     width: 100%;
-    aspect-ratio: 6 / 1;
+    height: 38vh;
 }
 
 .img-small{
-    width: 8%;
+    width: 25%;
     aspect-ratio: 1 / 1;
     margin: 7px;
     display: inline-block;
 }
 .img-large{
-    width: 16%;
+    width: 25%;
     background-color: orange;
 
     border-radius: 42px;
@@ -123,19 +114,10 @@ h4{
 img{
 
 }
-.text-green{
-    color:lime;
-}
-.text-blue{
-    color:rgb(85, 235, 255);
-}
 h5{
     letter-spacing: .05rem;
     display: inline-block;
     
-}
-.sidebar{
-
 }
 
 nav{
@@ -160,16 +142,14 @@ nav h2{
 }
 
 .sidebar{
-    background-color: rgb(33, 31, 44);
     height: 100vh;
-    width: 250px;
-    position: absolute;
+    width: 25%;
+    max-width: 300px;
 }
 
 #brand-icon{
-    margin-left: 8px;
-    height: 45px;
-    width: 45px;
+    height: 150px;
+    width: 150px;
 }
 .sidebar{
     display: flex;
@@ -204,10 +184,6 @@ button{
 button:hover{
     background-color: rgb(56, 53, 75);
     cursor: pointer;
-}
-#current-tab{
-    background-color: rgb(49, 80, 123);
-    color: white;
 }
 
 .time-info{
@@ -291,13 +267,14 @@ p{
 .top-item-container h2{
     margin: 8px;
     margin-left: 14px;
-    color:#dfdd86;
+    background: -webkit-linear-gradient(rgb(254, 235, 55), rgb(219, 173, 22));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .branding{
     /*background-color: red;*/
     width: 100%;
-    padding-bottom: 3vh;
     color: white;
     align-items: center;
     display: flex;
@@ -307,4 +284,303 @@ p{
 }
 h1{
     color: white;
+}
+
+.site-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+.link-support{
+    display: flex;
+    align-items: center;
+    color: rgb(151, 151, 151);
+    font-weight: 600;
+}
+.link-support a{
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.link-support svg{
+    height: 55px;
+    width: 55px;
+    padding: 6px;
+    margin-right: 6px;
+    padding-left: 20px;
+}
+.link-support{
+    border: none;
+    text-decoration: none;
+}
+.active{
+    background-color: rgb(49, 80, 123);
+    color: white;
+}
+@media only screen and (max-width: 1500px) {
+    hr{
+        display: none;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .link-support .navButton{
+        display: none;
+    }
+    .sidebar{
+        width: 65px;
+    }
+    .branding, .timestamp{
+        display: none;
+    }
+    .time-info{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .widget-row{
+        flex-direction: column;
+    }
+    .small-rectangle{
+        width: 95%;
+        h3,h4{
+            font-size: 2em;
+        }
+    }
+    .medium-square{
+        width: 95%;
+    }
+    .large-rectangle{
+        width: 95%;
+    }
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  *, *:after, *:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+.products{
+    width: 100%;
+}
+
+table {
+    width: 98%;
+    margin: 1%;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    border-collapse: separate;
+    border-spacing: 0 0px;
+
+    thead {
+        background-color: rgb(72, 170, 72);
+        color: #fff;
+        height: 40px;
+    }
+
+    td {
+        height: 50px;
+        vertical-align: middle;
+        text-align: center;
+        position: relative;
+        &:after {
+        content: '';
+        width: 1px;
+        position: absolute;
+        right: 0;
+        top: 8px;
+        bottom: 8px;
+        background-color: #dbdbdb;
+        }
+    }
+
+    tbody {
+        td {
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        background-color: #fafafa;
+    }
+
+    tbody tr:nth-child(odd){
+        background-color: #eaeaea;
+    }
+
+}
+
+#date-time{
+    color: white;
+    font-size: 1.15em;
+}
+.timestamp{
+    margin-bottom: 15px;
+}
+
+.theme-dark{
+    background-color: rgb(13, 9, 28);
+    .widget-item{
+        background: rgb(32,30,45);
+        background: -moz-linear-gradient(56deg, rgba(32,30,45,1) 0%, rgba(42,39,62,1) 100%);
+        background: -webkit-linear-gradient(56deg, rgba(32,30,45,1) 0%, rgba(42,39,62,1) 100%);
+        background: linear-gradient(56deg, rgba(32,30,45,1) 0%, rgba(42,39,62,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#201e2d",endColorstr="#2a273e",GradientType=1);
+        color: rgb(234, 234, 234);
+    }
+    .text-green{
+        color:lime;
+    }
+    .text-blue{
+        color:rgb(85, 235, 255);
+    }
+    .sidebar{
+        background-color: rgb(33, 31, 44);
+    }
+    .link-support{
+        background-color: rgb(33, 31, 44);
+    }
+    .link-support:hover{
+        background-color: rgb(50, 48, 69);
+        cursor: pointer;
+    }
+
+    .active{
+        background-color: rgb(49, 80, 123);
+        color: white;
+    }
+    .active p{
+        color: white;
+    }
+    .active:hover{
+        background-color: rgb(67, 97, 138);
+        color: white;
+    }
+    table {
+        td {
+            color: white;
+            &:after {
+                background-color: rgb(33, 31, 44);
+            }
+        }
+        thead {
+            background-color: rgb(69, 135, 69);
+        }
+    
+        tbody {
+            td {
+                border-top: 1px solid rgb(57, 54, 76);
+                border-bottom: 1px solid rgb(57, 54, 76);
+            }
+            background-color: rgb(57, 54, 76);
+        }
+    
+        tbody tr:nth-child(odd){
+            background-color: rgb(42, 39, 55);
+        }
+    }
+}
+
+.theme-light{
+    background-color: rgb(233, 233, 233);
+    hr{
+        border-color: rgb(230, 230, 230);
+    }
+    h3{
+        color: rgb(58, 58, 58);
+    }
+    .navButton{
+        color: black;
+    }
+    .widget-item{
+        background-color:#fff;
+        color: rgb(34, 34, 34);
+    }
+    .text-green{
+        color:rgb(0, 151, 0);
+    }
+    .text-blue{
+        color:rgb(22, 181, 238);
+    }
+    .sidebar{
+        background-color: #fff;
+    }
+    .link-support{
+        background-color: #fff;
+        color: black;
+    }
+    .link-support:hover{
+        background-color: rgb(228, 228, 228);
+        cursor: pointer;
+    }
+    .branding{
+        color: black;
+    }
+    h1{
+        color: black;
+    }
+    #date-time{
+        color: black;  
+    }
+
+    .active a{
+        background-color: rgb(59, 123, 212);
+        color: white;
+    }
+    .active p{
+        color: white;
+    }
+    .active a:hover{
+        background-color: rgb(49, 110, 195);
+        color: white;
+    }
+    .top-item-container{
+        background-color: rgb(220, 220, 220);
+    }
+    .top-item-container h2 {
+        color: #ff2200;
+    }
+    .sidebar svg{
+        fill: black;
+    }
+
+    .settings{
+        background-color: #ffffff;
+        color: black;
+    }
+    .top-item-container h4{
+        color:rgb(13, 120, 196);
+    }
+    .top-item-container h2{
+        background: rgb(255, 255, 0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.navButton{
+    font-size: 1em;
+}
+
+.settings{
+    background-color: rgb(33, 31, 44);
+    margin: 1%;
+    width: 98%;
+    border-radius: 30px;
+    color: white;
+}
+
+.medium-square p{
+    margin-bottom: 25px;
 }
