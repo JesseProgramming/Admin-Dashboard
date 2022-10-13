@@ -1,0 +1,28 @@
+.bubble-orange{
+    background: rgb(247,66,38);
+    background: -moz-linear-gradient(56deg, rgba(247,66,38,1) 0%, rgba(247,129,38,1) 100%);
+    background: -webkit-linear-gradient(56deg, rgba(247,66,38,1) 0%, rgba(247,129,38,1) 100%);
+    background: linear-gradient(56deg, rgba(247,66,38,1) 0%, rgba(247,129,38,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f74226",endColorstr="#f78126",GradientType=1);
+}
+.bubble-red{
+    background: rgb(113,5,5);
+    background: -moz-linear-gradient(56deg, rgba(113,5,5,1) 0%, rgba(222,66,66,1) 100%);
+    background: -webkit-linear-gradient(56deg, rgba(113,5,5,1) 0%, rgba(222,66,66,1) 100%);
+    background: linear-gradient(56deg, rgba(113,5,5,1) 0%, rgba(222,66,66,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#710505",endColorstr="#de4242",GradientType=1);
+}
+.bubble-blue{
+    background: rgb(48,38,247);
+    background: -moz-linear-gradient(56deg, rgba(48,38,247,1) 0%, rgba(38,176,247,1) 100%);
+    background: -webkit-linear-gradient(56deg, rgba(48,38,247,1) 0%, rgba(38,176,247,1) 100%);
+    background: linear-gradient(56deg, rgba(48,38,247,1) 0%, rgba(38,176,247,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3026f7",endColorstr="#26b0f7",GradientType=1);
+}
+.bubble-purple{
+    background: rgb(79,0,152);
+    background: -moz-linear-gradient(56deg, rgba(79,0,152,1) 0%, rgba(189,68,236,1) 100%);
+    background: -webkit-linear-gradient(56deg, rgba(79,0,152,1) 0%, rgba(189,68,236,1) 100%);
+    background: linear-gradient(56deg, rgba(79,0,152,1) 0%, rgba(189,68,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4f0098",endColorstr="#bd44ec",GradientType=1);
+}

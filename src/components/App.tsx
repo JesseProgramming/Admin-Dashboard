@@ -8,6 +8,7 @@ import '../styles/main-style.scss';
 import '../styles/light-dark-theme.scss';
 import '../styles/mobile-display.scss';
 import '../styles/table-styling.scss';
+import '../styles/icon-styles.scss';
 
 export default function App() {
     return(
