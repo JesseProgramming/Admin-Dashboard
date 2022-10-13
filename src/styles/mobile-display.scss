@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1500px) {
+    hr{
+        display: none;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .link-support .navButton{
+        display: none;
+    }
+    .sidebar{
+        width: 65px;
+    }
+    .branding, .timestamp{
+        display: none;
+    }
+    .time-info{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .widget-row{
+        flex-direction: column;
+    }
+    .small-rectangle{
+        width: 95%;
+        h3,h4{
+            font-size: 2em;
+        }
+    }
+    .medium-square{
+        width: 95%;
+    }
+    .large-rectangle{
+        width: 95%;
+    }
+    .sidebar{
+        position: fixed;
+    }
+    .widget-container, .products, .settings{
+        margin-left: 70px;
+    }
+}

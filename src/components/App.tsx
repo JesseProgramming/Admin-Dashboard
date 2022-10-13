@@ -3,6 +3,11 @@ import SideNav from './SideNav'
 import WidgetItem from './WidgetItem'
 import{BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import{Products, Sales, Orders, Alerts, Settings, Logout} from "./";
+import '../styles/nav-style.scss';
+import '../styles/main-style.scss';
+import '../styles/light-dark-theme.scss';
+import '../styles/mobile-display.scss';
+import '../styles/table-styling.scss';
 
 export default function App() {
     return(

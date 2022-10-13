@@ -1,6 +1,6 @@
-export {default as Products} from './products';
-export {default as Sales} from './sales';
-export {default as Orders} from './orders';
-export {default as Alerts} from './alerts';
-export {default as Settings} from './settings';
-export {default as Logout} from './logout';
+export {default as Products} from '../pages/products';
+export {default as Sales} from '../pages/sales';
+export {default as Orders} from '../pages/orders';
+export {default as Alerts} from '../pages/alerts';
+export {default as Settings} from '../pages/settings';
+export {default as Logout} from '../pages/logout';

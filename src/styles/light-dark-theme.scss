@@ -1,0 +1,139 @@
+.theme-dark{
+    background-color: rgb(13, 9, 28);
+    .widget-item{
+        background: rgb(32,30,45);
+        background: -moz-linear-gradient(56deg, rgba(32,30,45,1) 0%, rgba(42,39,62,1) 100%);
+        background: -webkit-linear-gradient(56deg, rgba(32,30,45,1) 0%, rgba(42,39,62,1) 100%);
+        background: linear-gradient(56deg, rgba(32,30,45,1) 0%, rgba(42,39,62,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#201e2d",endColorstr="#2a273e",GradientType=1);
+        color: rgb(234, 234, 234);
+    }
+    .text-green{
+        color:lime;
+    }
+    .text-blue{
+        color:rgb(85, 235, 255);
+    }
+    .sidebar{
+        background-color: rgb(33, 31, 44);
+    }
+    .link-support{
+        background-color: rgb(33, 31, 44);
+    }
+    .link-support:hover{
+        background-color: rgb(50, 48, 69);
+        cursor: pointer;
+    }
+
+    .active{
+        background-color: rgb(49, 80, 123);
+        color: white;
+    }
+    .active p{
+        color: white;
+    }
+    .active:hover{
+        background-color: rgb(67, 97, 138);
+        color: white;
+    }
+    table {
+        td {
+            color: white;
+            &:after {
+                background-color: rgb(33, 31, 44);
+            }
+        }
+        thead {
+            background-color: rgb(69, 135, 69);
+        }
+    
+        tbody {
+            td {
+                border-top: 1px solid rgb(57, 54, 76);
+                border-bottom: 1px solid rgb(57, 54, 76);
+            }
+            background-color: rgb(57, 54, 76);
+        }
+    
+        tbody tr:nth-child(odd){
+            background-color: rgb(42, 39, 55);
+        }
+    }
+}
+
+.theme-light{
+    background-color: rgb(233, 233, 233);
+    hr{
+        border-color: rgb(230, 230, 230);
+    }
+    h3{
+        color: rgb(58, 58, 58);
+    }
+    .navButton{
+        color: black;
+    }
+    .widget-item{
+        background-color:#fff;
+        color: rgb(34, 34, 34);
+    }
+    .text-green{
+        color:rgb(0, 151, 0);
+    }
+    .text-blue{
+        color:rgb(22, 181, 238);
+    }
+    .sidebar{
+        background-color: #fff;
+    }
+    .link-support{
+        background-color: #fff;
+        color: black;
+    }
+    .link-support:hover{
+        background-color: rgb(228, 228, 228);
+        cursor: pointer;
+    }
+    .branding{
+        color: black;
+    }
+    h1{
+        color: black;
+    }
+    #date-time{
+        color: black;  
+    }
+
+    .active a{
+        background-color: rgb(59, 123, 212);
+        color: white;
+    }
+    .active p{
+        color: white;
+    }
+    .active a:hover{
+        background-color: rgb(49, 110, 195);
+        color: white;
+    }
+    .top-item-container{
+        background-color: rgb(220, 220, 220);
+    }
+    .top-item-container h2 {
+        color: #ff2200;
+    }
+    .sidebar svg{
+        fill: black;
+    }
+
+    .settings{
+        background-color: #ffffff;
+        color: black;
+    }
+    .top-item-container h4{
+        color:rgb(13, 120, 196);
+    }
+    .top-item-container h2{
+        background: rgb(255, 255, 0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

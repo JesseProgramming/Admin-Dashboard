@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/nav-style.scss';
 import NavButtons from './NavButtons'
 // @ts-ignore
 import cookieBranding from '../images/cookie-pb.png'

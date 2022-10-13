@@ -33,28 +33,3 @@ function CustomLink({to, children, ...props}) {
 }
 
 export default NavButtons;
-
-{/*
-<Link to='/alerts' className="link-support">
-    <svg fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"><path d="m2.20164 18.4695 7.96266-14.46444c.7378-1.34008 2.9336-1.34008 3.6714 0l7.9627 14.46444c.6459 1.1733-.3386 2.5305-1.8357 2.5305h-15.9254c-1.49708 0-2.48159-1.3572-1.83566-2.5305z"/><path d="m12 9v4"/><path d="m12 17.0195v-.0195"/></g></svg>
-    <a>Alerts</a>
-</Link>
-*/}
-    {/*
-<Link to='/products' className="link-support">
-    <svg fill="white"  viewBox="0 0 48 48"  xmlns="http://www.w3.org/2000/svg"><path d="m0 0h48v48h-48z" fill="#fff" fillOpacity=".01"/><path d="m4 14-.89443-1.7889c-.67757.3388-1.10557 1.0314-1.10557 1.7889zm20-10 .8944-1.78885c-.563-.28153-1.2258-.28153-1.7888 0zm20 10h2c0-.7575-.428-1.4501-1.1056-1.7889zm0 20 .8944 1.7889c.6776-.3388 1.1056-1.0314 1.1056-1.7889zm-20 10-.8944 1.7889c.563.2815 1.2258.2815 1.7888 0zm-20-10h-2c0 .7575.428 1.4501 1.10557 1.7889zm.89443-18.2111 19.99997-10.00005-1.7888-3.5777-20.00003 9.99995zm37.10557-1.7889v20h4v-20zm1.1056 18.2111-20 10 1.7888 3.5778 20-10zm-18.2112 10-19.99997-10-1.78886 3.5778 20.00003 10zm-18.8944-8.2111v-20h-4v20zm38.8944-21.7889-20-9.99995-1.7888 3.5777 20 10.00005z" fill="white"/><path d="m4 14 20 10" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4"/><path clipRule="evenodd" d="m24 24v20z" fill="white" fillRule="evenodd"/><path d="m24 44v-20" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4"/><path d="m44 14-20 10" stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4"/><path d="m34.8944 10.7889c.988-.494 1.3884-1.69537.8945-2.68333-.494-.98795-1.6954-1.3884-2.6833-.89442zm-21.7888 6.4222c-.988.494-1.3884 1.6954-.8945 2.6833.494.988 1.6954 1.3884 2.6833.8945zm20-9.99995-20 9.99995 1.7888 3.5778 20-10z" fill="white"/></svg>
-    <a>Products</a>
-</Link>
-*/}
-{/*
-<Link to='/sales' className="link-support">
-    <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
-    <a>Sales</a>
-</Link>
-*/}
-    {/*
-<Link to='/logout' className="link-support">
-    <svg fill="white"  viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m6 30h12a2.0023 2.0023 0 0 0 2-2v-3h-2v3h-12v-24h12v3h2v-3a2.0023 2.0023 0 0 0 -2-2h-12a2.0023 2.0023 0 0 0 -2 2v24a2.0023 2.0023 0 0 0 2 2z"/><path d="m20.586 20.586 3.586-3.586h-14.172v-2h14.172l-3.586-3.586 1.414-1.414 6 6-6 6z"/><path d="m0 0h32v32h-32z" fill="none"/></svg>
-    <a>Logout</a>
-</Link>
-*/}
